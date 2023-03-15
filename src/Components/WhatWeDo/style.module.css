@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 :root {
   --deepBlue: #25356e;
   --white: #fff;
   --skyBlue: #179ede;
   --textFont: "Roboto", sans-serif;
-  --headFont: "Noto Sans", sans-serif;
+  --headFont: "Open Sans", sans-serif;
   --darkWhite: #b6b4b4;
 }
 
 .WhatWeDo {
   width: 100%;
   height: 100vh;
-  background: var(--deepBlue);
+  /* background: #000; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-around;
@@ -24,11 +24,21 @@
   padding: 20px;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  position: relative;
+}
+
+.WhatWeDo .leftSection .imageBox {
+  position: absolute;
+  top: 5%;
+  right: 10px;
+}
+.WhatWeDo .leftSection .imageBox img {
+  width: 100%;
 }
 
 .WhatWeDo .leftSection h3 {
@@ -38,7 +48,7 @@
 
 .WhatWeDo .leftSection h2 {
   color: var(--white);
-  font-size: 23px;
+  font-size: 3em;
 }
 
 .WhatWeDo .leftSection p {
@@ -51,69 +61,78 @@
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-around;
   align-items: center;
-  gap: 20px;
+  background-image: url(../../Images/grid.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  gap: 10px;
 }
 
 .WhatWeDo .rightSection span {
-  margin: 20px;
   padding: 20px;
-  border: 1px solid #fff;
   width: 280px;
   height: 200px;
   position: relative;
+  background: #fff;
+  margin: 10px;
 }
 
 .WhatWeDo .rightSection span h2 {
-  color: #fff;
+  color: var(--deepBlue);
   margin-bottom: 10px;
   font-size: 20px;
 }
-.WhatWeDo .rightSection span p{
- color: #b6b4b4;
+.WhatWeDo .rightSection span p {
+  color: #7c7a7a;
 }
 
-.WhatWeDo .rightSection span h3{
-  color: var(--deepBlue);
+.WhatWeDo .rightSection span h3 {
+  color: #ececec;
   position: absolute;
   right: 20px;
   top: 40%;
   font-size: 3em;
-  transition: .5s;
- }
+  transition: 0.5s;
+}
 
- .WhatWeDo .rightSection span:hover h3{
+.WhatWeDo .rightSection span:hover h3 {
   color: #b6b4b4;
   top: 26%;
   display: block;
-  transition: .5s;
- }
-
- .WhatWeDo .rightSection span:hover{
-background: rgba(0, 0, 0, 0.6);
- }
+  transition: 0.5s;
+}
 
 @media only screen and (max-width: 768px) {
-
-  .WhatWeDo{
+  .WhatWeDo {
     grid-template-columns: 1fr;
     padding: 20px;
     height: 100%;
   }
 
-  .WhatWeDo .leftSection{
+  .WhatWeDo .leftSection {
     padding: 0;
     background: transparent;
   }
 
-  .WhatWeDo .rightSection{
+  .WhatWeDo .leftSection h2 {
+    color: var(--deepBlue);
+  }
+
+  .WhatWeDo .rightSection {
     grid-template-columns: 1fr;
   }
 
-  .WhatWeDo .rightSection span{
+  .WhatWeDo .rightSection span {
     width: 100%;
     height: 100%;
     margin: 20px 0;
     border: 1px solid #179ede;
   }
+  p {
+    color: #080b18;
+  }
 
+  .WhatWeDo .leftSection .imageBox {
+    display: none;
+  }
 }

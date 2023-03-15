@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
   --deepBlue: #25356e;
   --white: #fff;
   --skyBlue: #179ede;
   --textFont: 'Roboto', sans-serif;
-  --headFont: 'Noto Sans', sans-serif;
+  --headFont: 'Open Sans', sans-serif;
 }
 * {
   margin: 0;
@@ -14,7 +14,7 @@
 }
 
 .navContainer {
-  background:url(../../Images/diamond.jpg), rgba(0, 0, 0, 0.699);
+  background:url(../../Images/silver.jpg), rgba(0, 0, 0, 0.699);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

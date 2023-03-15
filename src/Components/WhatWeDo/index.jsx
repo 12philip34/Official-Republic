@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./style.module.css";
+import Image from '../../Images/Logo.png'
 
 const WhatWeDo = () => {
   return (
@@ -9,10 +10,13 @@ const WhatWeDo = () => {
           <h3>Services</h3>
           <h2>What we do</h2>
           <p>
-            We have a vision of helping as many budding projects as possible, to
+            We have a vision of helping as many budding DeFi projects as possible, <br /> to
             easily connect with their target audience, by helping narrate and
-            express their stories. So what we do basically is
+            express <br /> their stories. So what we do basically is
           </p>
+          <span className={style.imageBox}>
+            <img src={Image} alt="" />
+          </span>
         </section>
         <section className={style.rightSection}>
           <span>
