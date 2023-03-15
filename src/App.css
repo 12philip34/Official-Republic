@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+:root {
+  --deepBlue: #25356e;
+  --white: #fff;
+  --skyBlue: #179ede;
+  --textFont: 'Roboto', sans-serif;
+  --headFont: 'Noto Sans', sans-serif;
+}
+
+a,p,h3{
+    font-family: var(--textFont);
+}
+
+h1,h2{
+    font-family: var(--headFont);
+}

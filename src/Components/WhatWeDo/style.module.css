@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+:root {
+  --deepBlue: #25356e;
+  --white: #fff;
+  --skyBlue: #179ede;
+  --textFont: "Roboto", sans-serif;
+  --headFont: "Noto Sans", sans-serif;
+  --darkWhite: #b6b4b4;
+}
+
+.WhatWeDo {
+  width: 100%;
+  height: 100vh;
+  background: var(--deepBlue);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.WhatWeDo .leftSection {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.WhatWeDo .leftSection h3 {
+  color: var(--skyBlue);
+  font-size: 13px;
+}
+
+.WhatWeDo .leftSection h2 {
+  color: var(--white);
+  font-size: 23px;
+}
+
+.WhatWeDo .leftSection p {
+  color: var(--darkWhite);
+  font-size: 15px;
+}
+
+.WhatWeDo .rightSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.WhatWeDo .rightSection span {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #fff;
+  width: 280px;
+  height: 200px;
+  position: relative;
+}
+
+.WhatWeDo .rightSection span h2 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.WhatWeDo .rightSection span p{
+ color: #b6b4b4;
+}
+
+.WhatWeDo .rightSection span h3{
+  color: var(--deepBlue);
+  position: absolute;
+  right: 20px;
+  top: 40%;
+  font-size: 3em;
+  transition: .5s;
+ }
+
+ .WhatWeDo .rightSection span:hover h3{
+  color: #b6b4b4;
+  top: 26%;
+  display: block;
+  transition: .5s;
+ }
+
+ .WhatWeDo .rightSection span:hover{
+background: rgba(0, 0, 0, 0.6);
+ }
+
+@media only screen and (max-width: 768px) {
+
+  .WhatWeDo{
+    grid-template-columns: 1fr;
+    padding: 20px;
+    height: 100%;
+  }
+
+  .WhatWeDo .leftSection{
+    padding: 0;
+    background: transparent;
+  }
+
+  .WhatWeDo .rightSection{
+    grid-template-columns: 1fr;
+  }
+
+  .WhatWeDo .rightSection span{
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+    border: 1px solid #179ede;
+  }
+
+}
