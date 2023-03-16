@@ -20,10 +20,10 @@ const Navbar = () => {
   return (
     <div className="navContainer">
       <section className="logoBox">
-        <img src={Logo} alt="logo.png" />
+        <img src={Logo} alt="logo.png" data-aos="fade-up" />
         <label>
-          <h3>YOUR NO. 1 CRYPTO MARKETING AGENCY</h3>
-          <h1>
+          <h3 data-aos="fade-up">YOUR NO. 1 CRYPTO MARKETING AGENCY</h3>
+          <h1 data-aos="fade-up">
             <Typed
               strings={[
                 "WE'RE YOUR PROJECT'S CHAPERONE",
@@ -35,12 +35,12 @@ const Navbar = () => {
               loop
             />
           </h1>
-            <p>
+            <p data-aos="fade-up">
               We offer the best crypto community management, community
               moderation, community engagement, content creation, social media
               management etc.
             </p>
-            <a href="">Get Started</a>
+            <a href="" data-aos="fade-up">Get Started</a>
         </label>
       </section>
       <section id="showBar">
@@ -50,22 +50,22 @@ const Navbar = () => {
         <nav className={`navBar ${showNavbar && "active"}`}>
           <ul>
             <li>
-              <Link to="" className="navLink">
+              <Link to="" className="navLink" data-aos="fade-up">
                 About Me
               </Link>
             </li>
             <li>
-              <Link to="" className="navLink">
+              <Link to="" className="navLink" data-aos="fade-up">
                 Some Designs
               </Link>
             </li>
             <li>
-              <Link to="" className="navLink">
+              <Link to="" className="navLink" data-aos="fade-up">
                 You Ready!
               </Link>
             </li>
             <li>
-              <Link to="" className="navLink">
+              <Link to="" className="navLink" data-aos="fade-up">
                 Contact Me
               </Link>
             </li>

@@ -7,24 +7,24 @@ const WhatWeDo = () => {
     <div>
       <div className={style.WhatWeDo}>
         <section className={style.leftSection}>
-          <h3>Services</h3>
-          <h2>What we do</h2>
-          <p>
+          <h3 data-aos="fade-up">Services</h3>
+          <h2 data-aos="fade-up">What we do</h2>
+          <p data-aos="fade-up">
             We have a vision of helping as many budding DeFi projects as possible, <br /> to
             easily connect with their target audience, by helping narrate and
             express <br /> their stories. So what we do basically is
           </p>
-          <span className={style.imageBox}>
+          <span className={style.imageBox} data-aos="fade-up">
             <img src={Image} alt="" />
           </span>
         </section>
         <section className={style.rightSection}>
-          <span>
+          <span data-aos="fade-up">
             <h3>01</h3>
             <h2>Level Up</h2>
             <p>We take your brand to the next level</p>
           </span>
-          <span>
+          <span data-aos="fade-up">
             <h3>02</h3>
             <h2>STORY TELLING</h2>
             <p>
@@ -32,14 +32,14 @@ const WhatWeDo = () => {
               audience in the language they’d understand and connect with
             </p>
           </span>
-          <span>
+          <span data-aos="fade-up">
             <h3>03</h3>
             <h2>ENSURE GREATNESS</h2>
             <p>
               We adopt strategies that ensure your project’s aims are achieved
             </p>
           </span>
-          <span>
+          <span data-aos="fade-up">
             <h3>04</h3>
             <h2>ONLINE-OFFLINE CONNECTIONS</h2>
             <p>

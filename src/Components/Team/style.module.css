@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root {
+  --deepBlue: #25356e;
+  --white: #fff;
+  --skyBlue: #179ede;
+  --textFont: 'Roboto', sans-serif;
+  --headFont: 'Open Sans', sans-serif;
+}
+
+.team h1{
+    color: var(--deepBlue);
+    padding: 20px;
+    font-family: var(--headFont);
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.teamGrid{
+    width: 100%;
+    height: 80vh;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.teamGrid span{
+    position: relative;
+    overflow: hidden;
+}
+
+.teamGrid img{
+    width: 100%;
+}
+
+.teamGrid label{
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.575);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 30px;
+    transition: 1s;
+}
+
+.teamGrid span:hover label{
+    left: 0%;
+}
+
+.teamGrid span:hover img{
+    transition: ease-in-out 1s;
+    transform: scale(1.2);
+}
+
+.teamGrid span label h2{
+    color: white;
+}
+
+.teamGrid span label h3{
+    color: #cbd2eb;
+    font-size: 15px;
+}
+
+.teamGrid span label small{
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .team h1{
+        font-size: 2.3em;
+    }
+
+    .teamGrid{
+        width: 100%;
+        height: 100%;
+    }
+
+    .teamGrid label{
+        left: 90%;
+    }
+}   
