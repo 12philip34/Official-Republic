@@ -20,7 +20,7 @@ const Team = () => {
                 <span data-aos="fade-up">
                     <img src={Unclesam} alt="team.jpg" />
                     <label>
-                        <h2>UncleSam</h2>
+                        <h2>UncleSam.</h2>
                         <h3>CEO, UNCLESAM’S REPUBLIC</h3>
                         <small><LinkedInIcon style={LinkedColor} /></small>
                     </label>
@@ -28,7 +28,7 @@ const Team = () => {
                 <span data-aos="fade-up">
                     <img src={Akpan} alt="team.jpg" />
                     <label>
-                        <h2>Ekuere Akpan</h2>
+                        <h2>Ekuere Akpan.</h2>
                         <h3>HR, UNCLESAM’S REPUBLIC</h3>
                         <small><LinkedInIcon style={LinkedColor} /></small>
                     </label>
@@ -36,7 +36,7 @@ const Team = () => {
                 <span data-aos="fade-up">
                     <img src={Awesome} alt="team.jpg" />
                     <label>
-                        <h2>Kingsley Sunday</h2>
+                        <h2>Kingsley Sunday.</h2>
                         <h3>COMMUNITY LEAD</h3>
                         <small><LinkedInIcon style={LinkedColor} /></small>
                     </label>
@@ -44,7 +44,7 @@ const Team = () => {
                 <span data-aos="fade-up">
                     <img src={Abasifreke} alt="team.jpg" />
                     <label>
-                        <h2>Abasifreke Efik</h2>
+                        <h2>Abasifreke Efik.</h2>
                         <h3>SOCIAL MEDIA STRATEGIST</h3>
                         <small><LinkedInIcon style={LinkedColor} /></small>
                     </label>
