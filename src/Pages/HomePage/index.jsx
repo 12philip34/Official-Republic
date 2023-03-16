@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../../Components/Navbar";
 import WhatWeDo from "../../Components/WhatWeDo";
 import WhoWeAre from "../../Components/WhoWeAre";
 import HowWeCanHelp from '../../Components/HowCanWeHelp'
@@ -9,6 +10,7 @@ import Footer from "../../Components/Footer";
 const HomePage = () => {
   return (
     <div>
+      <Navbar />
       <WhoWeAre />
       <WhatWeDo />
       <HowWeCanHelp />

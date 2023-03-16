@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="navContainer">
       <section className="logoBox">
-        <img src={Logo} alt="logo.png" data-aos="fade-up" />
+        <a href="/"><img src={Logo} alt="logo.png" data-aos="fade-up" /></a>
         <label>
           <h3 data-aos="fade-up">YOUR NO. 1 CRYPTO MARKETING AGENCY</h3>
           <h1 data-aos="fade-up">
@@ -43,7 +43,7 @@ const Navbar = () => {
             <a href="" data-aos="fade-up">Get Started</a>
         </label>
       </section>
-      <section id="showBar">
+      <section id="showBar">  
         <div id="toggle" onClick={ToggleShow}>
           <SignalCellularAltIcon style={Rotate} />
         </div>

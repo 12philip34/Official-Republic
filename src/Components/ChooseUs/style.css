@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root {
+  --deepBlue: #25356e;
+  --white: #fff;
+  --skyBlue: #179ede;
+  --textFont: 'Roboto', sans-serif;
+  --headFont: 'Open Sans', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chooseUsBox{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.chooseUsBox .imageChooseBox{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#000000ab, #060913c4), url(../../Images/gold.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.chooseUsBox .imageChooseBox h1{
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.chooseUsBox .imageChooseBox p{
+  color: #6a7980;
+  font-size: 15px;
+}
+
+.chooseUsBox .accordionChooseUs{
+    padding: 20px;
+}
+.accordion-item{
+    width: 400px;
+}
+
+.accordion-button{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.accordion-body{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.accordion-body p{
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px){
+  .chooseUsBox{
+    grid-template-columns: 1fr;
+    height: 100%;
+}
+}

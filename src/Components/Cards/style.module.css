@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root {
+  --deepBlue: #25356e;
+  --white: #fff;
+  --skyBlue: #179ede;
+  --textFont: 'Roboto', sans-serif;
+  --headFont: 'Open Sans', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aboutCard{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    grid-template: 20px;
+    background: #0c1124;
+}
+
+.aboutCard label{
+    margin: 20px;
+    background: #10162e;
+    height: 300px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 2px 2px 10px  #111730;
+}
+
+.aboutCard label h2{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.aboutCard label p{
+    color: #bdc0d4;
+     font-size: 15px;
+     margin-bottom: 10px;
+}
+
+.aboutCard label ul li{
+    color: #bdc0d4;
+     font-size: 15px;
+     margin-bottom: 10px;
+}
+
+.aboutCard label span{
+   padding: 40px;
+   background: #0c1124;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   border-top-left-radius: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutCard{
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+    }
+
+    .aboutCard label{
+        margin: 20px 0;
+        background: #10162e;
+        height: 300px;
+        padding: 10px;
+        position: relative;
+        box-shadow: 2px 2px 10px  #111730;
+    }
+}

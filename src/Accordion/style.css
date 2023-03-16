@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root {
+  --deepBlue: #25356e;
+  --white: #fff;
+  --skyBlue: #179ede;
+  --textFont: 'Roboto', sans-serif;
+  --headFont: 'Open Sans', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+
+.accordionItem{
+    border: 1px solid #f7f8fa;
+}
+
+.accordionTitleBox{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.accordionContent{
+    padding: 10px;
+    background: #eeeff1;
+    color: #343538;
+    font-size: 13px;
+}
+
+.accordTitle{
+    color: #25356e;
+}

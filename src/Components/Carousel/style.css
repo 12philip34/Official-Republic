@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  --deepBlue: #25356e;
+  --white: #fff;
+  --skyBlue: #179ede;
+  --textFont: "Roboto", sans-serif;
+  --headFont: "Open Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider {
+  width: 100%;
+  height: 90vh;
+  background: #050811;
+  position: relative;
+  overflow: hidden;
+}
+
+.carouselBox {
+  width: 100%;
+  height: 100%;
+  background: #050811;
+  position: relative;
+}
+
+.slideAnimation{
+  background: #050811;
+}
+
+.carouselBox .slideText {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.616);
+  position: absolute;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  text-align: center;
+}
+
+.carouselBox .slideText h1 {
+  color: var(--white);
+  font-family: var(--headFont);
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.carouselBox .slideText p {
+  color: #179ede;
+  font-family: var(--textFont);
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.widthCarousel {
+  width: 100%;
+  height: 100%;
+}
+
+.navContainer {
+  background: url(../../Images/silver.jpg), rgba(0, 0, 0, 0.699);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  z-index: 100;
+}
+
+.navBar {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.61);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -30px;
+  left: 100%;
+  transition: 1s;
+  z-index: 100;
+}
+
+.navBar.active {
+  left: 0%;
+}
+
+.navBar {
+  margin-top: 30px;
+}
+
+.navBar ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.navBar ul li {
+  list-style: none;
+  margin: 10px 0;
+  border: 1px solid var(--skyBlue);
+  padding: 10px 20px;
+}
+
+.navBar ul li .navLink {
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.navBar ul li:hover {
+  background: var(--skyBlue);
+  cursor: pointer;
+}
+
+.navBar h4 {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  color: #777;
+  transform: rotate(270deg);
+  background: rgba(0, 0, 0, 0.377);
+  margin: 0;
+}
+
+#toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  z-index: 1000;
+}
+
+#toggle.active {
+  background: rgba(241, 57, 94, 0.726);
+}
+
+@media only screen and (max-width: 768px) {
+  .slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: url();
+  }
+
+  .widthCarousel {
+    width: 100%;
+    height: 100%;
+  }
+
+  .carouselBox .slideText h1 {
+    color: var(--white);
+    font-family: var(--headFont);
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  .carouselBox .slideText label{
+    margin-top: 50%;
+  }
+}
