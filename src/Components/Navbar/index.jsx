@@ -50,20 +50,20 @@ const Navbar = () => {
         <nav className={`navBar ${showNavbar && "active"}`}>
           <ul>
             <li>
-              <Link to="" className="navLink" data-aos="fade-up">
+              <Link to="/about" className="navLink" data-aos="fade-up">
                 About Me
               </Link>
             </li>
             <li>
               <Link to="" className="navLink" data-aos="fade-up">
-                Some Designs
+                Blogs
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="" className="navLink" data-aos="fade-up">
                 You Ready!
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="" className="navLink" data-aos="fade-up">
                 Contact Me
