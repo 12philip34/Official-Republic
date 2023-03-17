@@ -59,11 +59,6 @@ const Navbar = () => {
                 Blogs
               </Link>
             </li>
-            {/* <li>
-              <Link to="" className="navLink" data-aos="fade-up">
-                You Ready!
-              </Link>
-            </li> */}
             <li>
               <Link to="/contact" className="navLink" data-aos="fade-up">
                 Contact Me
