@@ -5,6 +5,7 @@ import HomePage from './Pages/HomePage';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import AboutPage from './Pages/AboutPAge';
+import BlogPage from './Pages/BlogPage';
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path='/' exact element={<HomePage />}/>
           <Route path='/about' exact element={<AboutPage />}/>
+          <Route path='/blog' exact element={<BlogPage />}/>
         </Routes>
       </BrowserRouter>
     </div>

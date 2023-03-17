@@ -83,16 +83,16 @@ const Carousel = () => {
           <ul>
             <li>
               <Link to="/about" className="navLink" data-aos="fade-up">
-                About Me
+                About Us
               </Link>
             </li>
             <li>
-              <Link to="" className="navLink" data-aos="fade-up">
+              <Link to="/blog" className="navLink" data-aos="fade-up">
                 Blogs
               </Link>
             </li>
             <li>
-              <Link to="" className="navLink" data-aos="fade-up">
+              <Link to="/contact" className="navLink" data-aos="fade-up">
                 Contact Me
               </Link>
             </li>
