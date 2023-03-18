@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  --deepBlue: #25356e;
+  --white: #fff;
+  --skyBlue: #179ede;
+  --textFont: "Roboto", sans-serif;
+  --headFont: "Open Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gridCard {
+  margin: 10px;
+  background: var(--white);
+}
+
+
+.gridBox .gridCard .imgBox {
+  position: relative;
+  width: 100%;
+}
+
+.gridBox .gridCard .imgBox img {
+  width: 100%;
+}
+
+.gridBox .gridCard .imgBox label {
+  position: absolute;
+  background: #25356e;
+  color: white;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px 10px;
+}
+
+.gridBox .gridCard .contentBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    box-shadow: 2px 2px 10px #d7dbe960;
+}
+
+.gridBox .gridCard .contentBox h3{
+    font-size: 20px;
+}
+
+.gridBox .gridCard .contentBox span{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    background: #3b3f4e34;
+    padding: 10px 20px;
+}
+
+.gridBox .gridCard .contentBox span p{
+    color: #333;
+    margin: 0;
+}

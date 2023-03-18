@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  --deepBlue: #25356e;
+  --white: #fff;
+  --skyBlue: #179ede;
+  --textFont: "Roboto", sans-serif;
+  --headFont: "Open Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gridBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.latestBox {
+  width: 100%;
+  padding: 20px;
+}
+
+.latestBox h1 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3f434e49;
+  text-align: center;
+  color: #25356e;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+  .gridBox {  
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 900px) {
+  .gridBox {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1024px) {
+  .gridBox {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

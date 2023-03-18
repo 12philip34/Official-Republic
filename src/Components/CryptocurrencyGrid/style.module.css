@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  --deepBlue: #25356e;
+  --white: #fff;
+  --skyBlue: #179ede;
+  --textFont: "Roboto", sans-serif;
+  --headFont: "Open Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.CryptocurrencyGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.leftGrid .innerLeftGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridCard {
+  margin: 10px;
+  height: 100%;
+  background: var(--white);
+}
+
+.CryptocurrencyGrid .gridCard .imgBox {
+  position: relative;
+}
+
+.CryptocurrencyGrid .gridCard .imgBox img {
+  width: 100%;
+}
+
+.CryptocurrencyGrid .gridCard .imgBox label {
+  position: absolute;
+  background: #25356e;
+  color: white;
+  bottom: 100px;
+  left: 10px;
+  padding: 5px 10px;
+}
+
+.CryptocurrencyGrid .gridCard .contentBox {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #0c1225b0;
+  padding: 10px;
+  box-shadow: 2px 2px 10px #4a4c5360;
+}
+
+.CryptocurrencyGrid .gridCard .contentBox h3 {
+  font-size: 18px;
+  color: white;
+}
+
+.CryptocurrencyGrid .gridCard .contentBox span {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+  background: #3b3f4e34;
+  padding: 10px 20px;
+}
+
+.CryptocurrencyGrid .gridCard .contentBox span p {
+  color: whitesmoke;
+  margin: 0;
+}
+
+.latestBox{
+    width: 100%;
+    padding: 20px;
+}
+
+.latestBox h1{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3f434e49;
+    text-align: center;
+    color: #25356e;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.rightGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: start;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .latestBox h1{
+        font-size: 2em;
+    }
+    .CryptocurrencyGrid{
+        grid-template-columns: 1fr;
+    }
+
+    .leftGrid .innerLeftGrid{
+        grid-template-columns: 1fr;
+    }
+}

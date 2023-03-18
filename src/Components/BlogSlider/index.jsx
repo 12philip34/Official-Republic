@@ -49,33 +49,30 @@ const BlogSlider = () => {
                     <div className="carousel-inner carouselBox">
                         <div className="carousel-item active carouselItem">
                             <div className="middleText">
-                                <h1>We do everything fashion</h1>
-                                <h1>and wears</h1>
-                                <p>choose-sew-Deliver</p>
+                                <h1>What are crypto naratives, and how it works?</h1>
+                                <p>@U-Republic</p>
                             </div>
                             <span className="circle"></span>
                         </div>
                         <div className="carousel-item">
                             <div className="middleText">
-                                <h1>Get access to fabrics for</h1>
-                                <h1>multi-purpose use</h1>
-                                <p>All at first hand</p>
+                                <h1>web1 vs web2 vs web3</h1>
+                                <h1>what are the differences</h1>
+                                <p>@U-Republic</p>
                             </div>
                             <span className="circle"></span>c
                         </div>
                         <div className="carousel-item">
                             <div className="middleText">
-                                <h1>We style according to </h1>
-                                <h1>your way</h1>
-                                <p>Your taste in a dress</p>
+                                <h1>Where are NFT's stored?</h1>
+                                <p>@U-Republic</p>
                             </div>
                             <span className="circle"></span>
                         </div>
                         <div className="carousel-item">
                             <div className="middleText">
-                                <h1>Name any fabric, we have it </h1>
-                                <h1>in stock</h1>
-                                <p>Best qualities in stock</p>
+                                <h1>How to buy virtual lands in Metaverse</h1>
+                                <p>@U-Republic</p>
                             </div>
                             <span className="circle"></span>
                         </div>
