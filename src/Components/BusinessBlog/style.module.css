@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  --deepBlue: #25356e;
+  --white: #fff;
+  --skyBlue: #179ede;
+  --textFont: "Roboto", sans-serif;
+  --headFont: "Open Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.BusinessGrid {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #0c1124;
+}
+
+.innerLeftGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.gridCard {
+  margin: 10px;
+  height: 100%;
+  background: var(--white);
+  box-shadow: 2px 2px 10px #30323b38;
+}
+
+.gridCard .contentBoxWithOutAbosul{
+  padding: 10px;
+}
+
+.BusinessGrid .gridCardRight {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0  ;
+  background: #fff;
+}
+
+.CryptoTreadsBox .gridCardRight{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.BusinessGrid .gridCardRight .imgBox,
+.CryptoTreadsBox .gridCardRight .imgBox
+ {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.BusinessGrid .gridCardRight .imgBox img,
+.CryptoTreadsBox .gridCardRight .imgBox img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.BusinessGrid .gridCardRight .contentBox,
+.CryptoTreadsBox .gridCardRight .contentBox
+ {
+  padding: 10px;
+  box-shadow: 2px 2px 10px #30323b38;
+}
+
+.BusinessGrid .gridCardRight .contentBox span,
+.CryptoTreadsBox .gridCardRight .contentBox span
+ {
+  display: flex;
+  column-gap: 10px;
+}
+
+.CryptoTreadsBox .gridCardRight{
+    margin-left: 20px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.BusinessGrid .gridCardRight .contentBox h3,
+.CryptoTreadsBox .gridCardRight .contentBox h3
+ {
+  font-size: 18px;
+}
+
+.BusinessGrid .gridCard .imgBox {
+  position: relative;
+}
+
+.BusinessGrid .gridCard .imgBox img,
+.BusinessGrid .gridCardRight .imgBox img {
+  width: 100%;
+}
+
+.BusinessGrid .gridCard .imgBox label {
+  position: absolute;
+  background: #25356e;
+  color: white;
+  bottom: 100px;
+  left: 10px;
+  padding: 5px 10px;
+}
+
+.BusinessGrid .gridCard .contentBox {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #0c1225b0;
+  padding: 10px;
+  box-shadow: 2px 2px 10px #4a4c5360;
+}
+
+.contentBoxWithOutAb {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #0c1225b0;
+  padding: 10px;
+  box-shadow: 2px 2px 10px #4a4c5360;
+}
+
+.BusinessGrid .gridCard .contentBox h3{
+  font-size: 20px;
+  color: white;
+}
+
+
+.BusinessGrid .gridCard .contentBoxWithOutAbosul h3 {
+  font-size: 20px;
+  color: #0c1124;
+}
+
+.BusinessGrid .gridCard .contentBox span{
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+  background: #3b3f4e34;
+  padding: 10px 20px;
+}
+
+.BusinessGrid .gridCard .contentBoxWithOutAbosul span{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #3b3f4e34;
+  padding: 5px;
+}
+
+.BusinessGrid .gridCard .contentBox span p{
+  color: whitesmoke;
+  margin: 0;
+}
+
+.BusinessGrid .gridCard .contentBoxWithOutAbosul span p{
+  color: #333;
+  margin: 0;
+}
+
+.latestBox {
+  width: 100%;
+  padding: 20px;
+}
+
+.latestBox h1 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3f434e49;
+  text-align: center;
+  color: #25356e;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.rightGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: start;
+  align-items: center;
+}
+
+.CryptoTreadsBox{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+@media only screen and (max-width: 768px) {
+  .latestBox h1 {
+    font-size: 2em;
+  }
+  .BusinessGrid {
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+
+  .innerLeftGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .BusinessGrid .gridCardRight{
+    grid-template-columns: 1fr;
+    margin: 10px 0;
+  }
+
+  .CryptoTreadsBox{
+    grid-template-columns: 1fr; 
+  }
+
+  .CryptoTreadsBox .gridCardRight{
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
+}
