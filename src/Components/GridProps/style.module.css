@@ -47,7 +47,8 @@
 }
 
 .gridBox .gridCard .contentBox h3{
-    font-size: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .gridBox .gridCard .contentBox span{
@@ -62,4 +63,5 @@
 .gridBox .gridCard .contentBox span p{
     color: #333;
     margin: 0;
+    font-size: 15px;
 }

@@ -75,7 +75,7 @@
 }
 
 .CryptocurrencyGrid .gridCard .contentBox h3 {
-  font-size: 18px;
+  font-size: 15px;
   color: white;
 }
 
@@ -91,6 +91,7 @@
 .CryptocurrencyGrid .gridCard .contentBox span p {
   color: whitesmoke;
   margin: 0;
+  font-size: 15px;
 }
 
 .latestBox{
