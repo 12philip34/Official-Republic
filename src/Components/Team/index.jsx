@@ -45,7 +45,7 @@ const Team = () => {
                     <img src={Abasifreke} alt="team.jpg" />
                     <label>
                         <h2>Abasifreke Efik.</h2>
-                        <h3>SOCIAL MEDIA STRATEGIST</h3>
+                        <h3>COMMUNITY LEAD</h3>
                         <small><LinkedInIcon style={LinkedColor} /></small>
                     </label>
                 </span>
