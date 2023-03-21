@@ -188,47 +188,6 @@ body {
   background: rgba(0, 0, 0, 0.61);
 }
 
-.logoBox label {
-  margin-top: 7%;
-  display: flex;
-  flex-direction: column;
-  padding-left: 30px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 500px;
-}
-
-.logoBox label h3 {
-  color: #179ede;
-  font-size: 13px;
-  font-family: var(--textFont);
-}
-
-.logoBox label h1 {
-  color: var(--white);
-  font-size: 3em;
-  margin-bottom: 20px;
-  font-family: var(--headFont);
-}
-
-.logoBox label p {
-  color: #d4d4d4;
-  font-size: 15px;
-  font-family: var(--textFont);
-}
-
-.logoBox label a {
-  color: white;
-  padding: 10px 20px;
-  border: 1px solid var(--skyBlue);
-  text-decoration: none;
-  margin-top: 20px;
-  font-family: var(--textFont);
-}
-
-.logoBox label a:hover {
-  background: var(--skyBlue);
-}
 
 .navBar.active {
   left: 0%;
