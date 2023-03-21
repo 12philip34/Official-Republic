@@ -49,8 +49,8 @@ const HomePage = () => {
     <div style={Homepage}>
       <Navbar />
       <WhoWeAre />
-      <WhatWeDo />
       <HowWeCanHelp />
+      <WhatWeDo />
       <Team />
       <Footer />
       <button style={ScrollBtn}>

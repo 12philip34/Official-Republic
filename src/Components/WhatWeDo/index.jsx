@@ -20,12 +20,10 @@ const WhatWeDo = () => {
         </section>
         <section className={style.rightSection}>
           <span data-aos="fade-up">
-            <h3>01</h3>
             <h2>Level Up</h2>
             <p>We take your brand to the next level</p>
           </span>
           <span data-aos="fade-up">
-            <h3>02</h3>
             <h2>STORY TELLING</h2>
             <p>
               We communicate your goals, aims and objectives to your ideal
@@ -33,14 +31,12 @@ const WhatWeDo = () => {
             </p>
           </span>
           <span data-aos="fade-up">
-            <h3>03</h3>
             <h2>ENSURE GREATNESS</h2>
             <p>
               We adopt strategies that ensure your project’s aims are achieved
             </p>
           </span>
           <span data-aos="fade-up">
-            <h3>04</h3>
             <h2>ONLINE-OFFLINE CONNECTIONS</h2>
             <p>
               We facilitate a connection between the online and offline space by
