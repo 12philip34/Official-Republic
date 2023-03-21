@@ -131,13 +131,15 @@
 }
 
 #toggle {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 40px;
   height: 40px;
   cursor: pointer;
   display: flex;
+  background: #25356e;
+  border: 1px solid #25356e;
   justify-content: center;
   align-items: center;
   transition: 0.2s;
@@ -152,9 +154,9 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   text-decoration: none;
-  position: absolute;
+  position: fixed;
   left: 10px;
-  top: 10px;
+  top: 0;
   padding: 10px 20px;
 }
 

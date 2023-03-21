@@ -9,9 +9,8 @@ const Footer = () => {
             <div className={style.footerBox}>
                 <div className={style.topFooter}>
                     <span>
-                        <h1 data-aos="zoom-in">Would you like us to manage your project?</h1>
-                        <p data-aos="zoom-in">We are open 24/7 and taking consignments. <br />
-                             Click the “blue button” to get in touch.</p>
+                        <h1 data-aos="zoom-in">Are you willing to take your brand to the next level?</h1>
+                        <p data-aos="zoom-in">We are open 24/7..</p>
                     </span>
                     <span data-aos="zoom-in">
                         <Link to="/contact">Contact Us</Link>

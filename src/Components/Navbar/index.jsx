@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="navContainer">
       <section className="logoBox">
-        <a href="/">
+        <a href="/" className="unclesamIcon">
           <img src={Logo} alt="logo.png" data-aos="fade-up" />
           </a>
         <label>

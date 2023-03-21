@@ -92,6 +92,7 @@
 @media only screen and (max-width: 768px) {
  .footer .footerBox .topFooter{
     grid-template-columns: 1fr;
+    text-align: start;
  }
 
  .footerBox .topFooter span h1 {

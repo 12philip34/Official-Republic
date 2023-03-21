@@ -2,7 +2,6 @@ import React from "react";
 import style from './style.module.css';
 import Unclesam from '../../Images/Unclesam.jpg'
 import Akpan from '../../Images/Akpan.jpg'
-import Awesome from '../../Images/Awesome.jpg'
 import Abasifreke from '../../Images/Abasifreke.jpg'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
