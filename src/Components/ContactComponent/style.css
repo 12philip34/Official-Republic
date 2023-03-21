@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  --deepBlue: #25356e;
+  --white: #fff;
+  --skyBlue: #179ede;
+  --textFont: "Roboto", sans-serif;
+  --headFont: "Open Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.contactContent {
+  background: linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.753)),
+    url(../../Images/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden !important;
+}
+
+ .contactContent span {
+  text-align: center;
+}
+
+ .contactContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .contactContent h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+ .contactContent p {
+  font: size 20px;
+  text-transform: capitalize;
+  color: #67747a;
+}
+
+.contactInput {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.contactInput .formBox {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.contactInput .form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: whitesmoke;
+  padding: 20px;
+}
+
+.contactInput .form form {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.contactInput .form form span {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInput .form form span label {
+  color: #25356e;
+}
+
+.contactInput .form form span input {
+  border: 1px solid #e6ecee;
+  width: 600px;
+  padding: 10px;
+  background: none;
+  outline: 1px solid #e6ecee;
+}
+
+.contactInput .form form span input:hover {
+  border: 1px solid #e6ecee;
+  outline: 1px solid #e6ecee;
+}
+
+.contactInput .form form span input:focus {
+  border: 1px solid #c4c9ca;
+  outline: 1px solid #c4c9ca;
+}
+
+.contactInput .form form span textarea {
+  border: 1px solid #d9dfe0;
+  outline: 1px solid #d9dfe0;
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+}
+
+.contactInput .form form button {
+  padding: 10px;
+  background: #25356e;
+  color: white;
+  border: 1px solid #25356e;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.contactInput .LogoAndSideForm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.753)),
+    url(../../Images/input.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navContainer {
+  background: url(../../Images/silver.jpg), rgba(0, 0, 0, 0.699);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.navBar {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.61);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -30px;
+  left: 100%;
+  transition: 1s;
+}
+
+.logoBox {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.61);
+}
+
+.logoBox label {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 500px;
+}
+
+.logoBox label h3 {
+  color: #179ede;
+  font-size: 13px;
+  font-family: var(--textFont);
+}
+
+.logoBox label h1 {
+  color: var(--white);
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-family: var(--headFont);
+}
+
+.logoBox label p {
+  color: #d4d4d4;
+  font-size: 15px;
+  font-family: var(--textFont);
+}
+
+.logoBox label a {
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid var(--skyBlue);
+  text-decoration: none;
+  margin-top: 20px;
+  font-family: var(--textFont);
+}
+
+.logoBox label a:hover {
+  background: var(--skyBlue);
+}
+
+.navBar.active {
+  left: 0%;
+}
+
+.navBar {
+  margin-top: 30px;
+}
+
+.navBar ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.navBar ul li {
+  list-style: none;
+  margin: 10px 0;
+  border: 1px solid var(--skyBlue);
+  padding: 10px 20px;
+}
+
+.navBar ul li .navLink {
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.navBar ul li:hover {
+  background: var(--skyBlue);
+  cursor: pointer;
+}
+
+.navBar h4 {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  color: #777;
+  transform: rotate(270deg);
+  background: rgba(0, 0, 0, 0.377);
+  margin: 0;
+}
+
+#toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  z-index: 1000;
+}
+
+#toggle.active {
+  background: rgba(241, 57, 94, 0.726);
+}
+
+.homeLink {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 10px 20px;
+}
+
+.homeLink:hover {
+  border: 1px solid #25356e;
+}
+
+.zIndex{
+  z-index: 1000;
+}
+
+@media only screen and (max-width: 768px) {
+  .sliderContact {
+    height: 80vh;
+  }
+
+  .sliderContact .sliderContainer h1 {
+    text-align: center;
+    margin: 200px auto;
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+  }
+
+  .contactInput .form {
+   padding: 10px;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .contactInput .form form{
+    justify-content: center;
+    align-items: center;
+   }
+
+  .contactInput .form form span {
+    width: 300px;
+  }
+
+  .contactInput .form form span input {
+    width: 100%;
+  }
+
+  .contactInput .formBox {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact {
+    height: 80vh;
+  }
+
+  .contactInput {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 00px;
+  }
+
+  .contactInput .LogoAndSideForm {
+    height: 300px;
+    width: 100%;
+  }
+
+  .contact .contactContent h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .logo{
+    top: 0px;
+    left: 10px;
+  }
+  
+  .contact .contactContent p {
+    font: size 15px;
+    text-transform: capitalize;
+    color: #67747a;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dropDown .dropDownBox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: -30px;
+    top: -180px;
+    display: none;
+    padding: 20px;
+    background: #494b4da8;
+  }
+
+  .dropDown .dropDownBox.active {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: -30px;
+    top: -150px;
+    padding: 20px;
+  }
+}

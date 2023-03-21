@@ -21,7 +21,7 @@ const Cards = () => {
           <h2 data-aos="fade-up">Our Mission</h2>
           <p data-aos="fade-up">
             We are driven by the need to help completely express the true
-            potential of your project, because understand to get adoption, your
+            potential of your project, because we understand to get adoption, your
             ideal audience needs to fully understand how your project will be of
             benefit to them.
           </p>

@@ -64,7 +64,7 @@
 .CryptocurrencyGrid .gridCard .contentBox {
   position: absolute;
   bottom: 0;
-  left: 10px;
+  left: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

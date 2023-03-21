@@ -13,15 +13,6 @@
   box-sizing: border-box;
 }
 
-.slider{
-    width: 100%;
-    height: 100vh;
-}
-
-.carousel-caption{
-    margin-bottom: 200px;
-}
-
 .dropDown {
   position: relative;
 }
@@ -70,100 +61,65 @@
   color: #179ede;
 }
 
-.carouselBox{
-    background: #0a0f20;
-    position: relative;
-    width: 100%;
-    height: 100vh;
+.slider {
+  background: linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.753)),
+    url(../../Images/blog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
 }
 
-.carouselItem{
-    bottom: 0;
-    width: 100%;
-    height: 100%;
+.slider .SliderContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
-.carousel-item{
-    position: relative;
+.slider .SliderContainer h1 {
+  text-align: center;
+  margin: 300px auto;
+  color: white;
+  font-size: 3.4em;
 }
 
-.middleText{
-    position: absolute;
-    top: 400px;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-    width: 1000px;
-    align-items: center;
-    justify-content: center;
+@media only screen and (max-width: 768px) {
+  .slider{
+    height: 80vh;
+  }
+
+  .slider .SliderContainer h1 {
     text-align: center;
-    z-index: 10;
-}
-
-.middleText h1{
+    margin: 200px auto;
     color: white;
-    text-transform: uppercase;
-    font-size: 3em;
+    font-size: 2em;
+    padding: 20px;
+  }
 }
 
-.middleText p{
-    color: #179ede;
-    margin: 20px 0;
-    text-transform: capitalize;
-}
-
-.circle{
-    padding: 300px;
-    border-radius: 50%;
-    background: #0e152c;
+@media only screen and (max-width: 768px) {
+  .dropDown .dropDownBox {
     position: absolute;
-    top: 40px;
-    left: -100px;
-}
+    display: flex;
+    flex-direction: column;
+    right: -30px;
+    top: -180px;
+    display: none;
+    padding: 20px;
+    background: #494b4da8;
+  }
 
-
-@media only screen and (max-width: 768px) {
-    .middleText{
-        top: 200px;
-    }
-
-    .slider{
-      height: 80vh;
-    }
-}
-
-@media only screen and (max-width: 1500px) {
-    .carouselBox{
-        height: 80vh;
-    }
-
-    .middleText{
-        width: 100%;
-    }
-
-    .middleText h1{
-        font-size: 24px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .dropDown .dropDownBox {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        right: -30px;
-        top: -180px;
-        display: none;
-        padding: 20px;
-        background: #494b4da8;
-      }
-      
-      .dropDown .dropDownBox.active {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        right: -30px;
-        top: -150px;
-        padding: 20px;
-      }
+  .dropDown .dropDownBox.active {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: -30px;
+    top: -150px;
+    padding: 20px;
+  }
 }

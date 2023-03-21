@@ -1,5 +1,6 @@
 import React from "react";
 import style from './style.module.css'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 
@@ -13,7 +14,7 @@ const Footer = () => {
                              Click the “blue button” to get in touch.</p>
                     </span>
                     <span data-aos="zoom-in">
-                        <a href="">Contact Us</a>
+                        <Link to="/contact">Contact Us</Link>
                     </span>
                 </div>
             </div>

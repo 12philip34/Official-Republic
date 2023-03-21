@@ -1,7 +1,13 @@
 import React from "react";
 import style from "./style.module.css";
-import Image from "../../Images/darkPc.jpg";
+import Launch from "../../Images/launchcrypt.jpg";
 import Typed from "react-typed";
+import News from "../../Images/news.jpg";
+import Stored from "../../Images/stored.jpg";
+import Derive from "../../Images/derive.jpg";
+import Coins from "../../Images/coins.jpg";
+import Start from "../../Images/start.jpg";
+
 
 
 const CryptocurrencyGrid = () => {
@@ -17,13 +23,13 @@ const CryptocurrencyGrid = () => {
         <div className={style.gridCard}>
             <div className={style.imgBox}>
               <img
-                src={Image}
+                src={Launch}
                 alt="crypto.render"
                 className={style.cryptoImage}
               />
               <label>Cryptocurrency</label>
-            <div className={style.contentBox}>
-              <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+            <div className={style.contentBox} data-aos="fade-up">
+              <h3>FED to launch instant payments system?</h3>
               <span>
                 <p>@U-Republic</p>
                 <p>19-2023</p>
@@ -35,13 +41,13 @@ const CryptocurrencyGrid = () => {
           <div className={style.gridCard}>
             <div className={style.imgBox}>
               <img
-                src={Image}
+                src={News}
                 alt="crypto.render"
                 className={style.cryptoImage}
               />
               <label>Cryptocurrency</label>
-            <div className={style.contentBox}>
-              <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+            <div className={style.contentBox} data-aos="fade-up">
+              <h3>Get better updates on day-to-day crypto activities</h3>
               <span>
                 <p>@U-Republic</p>
                 <p>19-2023</p>
@@ -52,13 +58,13 @@ const CryptocurrencyGrid = () => {
           <div className={style.gridCard}>
             <div className={style.imgBox}>
               <img
-                src={Image}
+                src={Stored}
                 alt="crypto.render"
                 className={style.cryptoImage}
               />
               <label>Cryptocurrency</label>
-            <div className={style.contentBox}>
-              <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+            <div className={style.contentBox} data-aos="fade-up">
+              <h3>Where are NFt Stored?.</h3>
               <span>
                 <p>@U-Republic</p>
                 <p>19-2023</p>
@@ -72,13 +78,13 @@ const CryptocurrencyGrid = () => {
           <div className={style.gridCard}>
             <div className={style.imgBox}>
               <img
-                src={Image}
+                src={Derive}
                 alt="crypto.render"
                 className={style.cryptoImage}
               />
               <label>Cryptocurrency</label>
-            <div className={style.contentBox}>
-              <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+            <div className={style.contentBox} data-aos="fade-up">
+              <h3>What are Crypto deriviatives, and how does it works?</h3>
               <span>
                 <p>@U-Republic</p>
                 <p>19-2023</p>
@@ -89,13 +95,13 @@ const CryptocurrencyGrid = () => {
           <div className={style.gridCard}>
             <div className={style.imgBox}>
               <img
-                src={Image}
+                src={Coins}
                 alt="crypto.render"
                 className={style.cryptoImage}
               />
               <label>Cryptocurrency</label>
-            <div className={style.contentBox}>
-              <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+            <div className={style.contentBox} data-aos="fade-up">
+              <h3>How to stake your coins on metamask.</h3>
               <span>
                 <p>@U-Republic</p>
                 <p>19-2023</p>
@@ -106,13 +112,13 @@ const CryptocurrencyGrid = () => {
           <div className={style.gridCard}>
             <div className={style.imgBox}>
               <img
-                src={Image}
+                src={Start}
                 alt="crypto.render"
                 className={style.cryptoImage}
               />
               <label>Cryptocurrency</label>
-            <div className={style.contentBox}>
-              <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+            <div className={style.contentBox} data-aos="fade-up">
+              <h3>How to start a career in the crypto space</h3>
               <span>
                 <p>@U-Republic</p>
                 <p>19-2023</p>

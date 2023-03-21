@@ -33,8 +33,16 @@
   gap: 20px;
 }
 
+.innerLeftGrid .gridCard .imgBox{
+  height: 300px;
+}
+
+.innerLeftGrid .gridCard .imgBox img{
+  height: 100%;
+}
+
 .gridCard {
-  margin: 10px;
+  width: 100%;
   height: 100%;
   background: var(--white);
   box-shadow: 2px 2px 10px #30323b38;
@@ -53,12 +61,22 @@
   background: #fff;
 }
 
+.CryptoTreadsBox{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 .CryptoTreadsBox .gridCardRight{
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 2fr;
   justify-content: center;
   align-items: center;
   margin: 10px 0;
+  width: 100%;
 }
 
 .BusinessGrid .gridCardRight .imgBox,
@@ -235,6 +253,6 @@
 
   .CryptoTreadsBox .gridCardRight{
     grid-template-columns: 1fr;
-    margin: 10px;
+    padding: 10px;
   }
 }

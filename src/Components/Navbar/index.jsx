@@ -20,15 +20,17 @@ const Navbar = () => {
   return (
     <div className="navContainer">
       <section className="logoBox">
-        <a href="/"><img src={Logo} alt="logo.png" data-aos="fade-up" /></a>
+        <a href="/">
+          <img src={Logo} alt="logo.png" data-aos="fade-up" />
+          </a>
         <label>
           <h3 data-aos="fade-up">YOUR NO. 1 CRYPTO MARKETING AGENCY</h3>
           <h1 data-aos="fade-up">
             <Typed
               strings={[
-                "WE'RE YOUR PROJECT'S CHAPERONE",
-                "A CREATIVE CRYPTO MARKETING AGENCY",
-                "We take your brand to the next level",
+                "Welcome to UncleSam's Republic",
+                "Your DeFi & NFT marketing agency.",
+                "We give you exposure without ads.",
               ]}
               typeSpeed={150}
               backSpeed={90}
@@ -40,7 +42,7 @@ const Navbar = () => {
               moderation, community engagement, content creation, social media
               management etc.
             </p>
-            <a href="" data-aos="fade-up">Get Started</a>
+            <a href="#hello" data-aos="fade-up">Let's Build</a>
         </label>
       </section>
       <section id="showBar">  
