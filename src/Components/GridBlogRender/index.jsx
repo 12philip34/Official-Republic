@@ -150,7 +150,7 @@ const GridBlogRender = (props) => {
         />
          <GridProps
           Image={Image}
-          Label="Cryptocurrency"
+          Label="Crypto"
           Header="Does coinbase report to the Irs?"
           TextBlog="UR-Blog"
           Date="March 12-2023"
