@@ -7,8 +7,8 @@ const WhoWeAre = () => {
     <div>
       <div className={style.whoAreWeBox}>
         <h1 data-aos="fade-up">
-          WE ARE A CREATIVE <br />
-          CRYPTO <img src={Regtangle} alt="regtangle.png" /> <br />
+          DEFI & NFT <br />
+           <img src={Regtangle} alt="regtangle.png" /> <br />
           MARKETING AGENCY
         </h1>
       </div>
