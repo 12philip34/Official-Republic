@@ -36,6 +36,8 @@ const AboutPage = () => {
     right: "20px",
     bottom: "20px",
     border: "1px solid #179ede",
+    width: '40px',
+    height: '50px'
   };
 
   const AboutPage = {
