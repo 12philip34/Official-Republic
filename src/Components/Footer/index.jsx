@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className={style.topFooter}>
                     <span>
                         <h1 data-aos="zoom-in">Are you willing to take your brand to the next level?</h1>
-                        <p data-aos="zoom-in">We are open 24/7..</p>
+                        <p data-aos="zoom-in">We are open 24/7...</p>
                     </span>
                     <span data-aos="zoom-in">
                         <Link to="/contact">Contact Us</Link>
