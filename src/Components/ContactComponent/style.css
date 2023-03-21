@@ -176,7 +176,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed !important; 
   top: -30px;
   left: 100%;
   transition: 1s;
@@ -274,6 +274,10 @@ body {
     height: 80vh;
   }
 
+  .contactContent {
+   height: 100%;
+  }
+
   .sliderContact .sliderContainer h1 {
     text-align: center;
     margin: 200px auto;
@@ -310,7 +314,7 @@ body {
     align-items: center;
   }
   .contact {
-    height: 80vh;
+    height: 100%;
   }
 
   .contactInput {

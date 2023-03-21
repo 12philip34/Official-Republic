@@ -86,7 +86,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed !important; 
   top: -30px;
   left: 100%;
   transition: 1s;

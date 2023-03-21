@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./style.css";
 import Logo from "../../Images/Logo.png";
 import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
-import Footer from "../Footer";
 
 const ContactComponent = () => {
   const [showNavbar, setShowNavBar] = useState(false);
@@ -83,7 +82,6 @@ const ContactComponent = () => {
           </span>
         </section>
       </div>
-      <Footer />
     </div>
   );
 };

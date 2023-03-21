@@ -34,8 +34,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute; 
-  top: -30px;
+  position: fixed !important; 
+  top: 0;
   left: 100%;
   transition: 1s;
 }
