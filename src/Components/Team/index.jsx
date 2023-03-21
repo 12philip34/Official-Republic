@@ -33,14 +33,14 @@ const Team = () => {
                         <small><LinkedInIcon style={LinkedColor} /></small>
                     </label>
                 </span>
-                <span data-aos="fade-up">
+                {/* <span data-aos="fade-up">
                     <img src={Awesome} alt="team.jpg" />
                     <label>
                         <h2>Kingsley Sunday.</h2>
                         <h3>COMMUNITY LEAD</h3>
                         <small><LinkedInIcon style={LinkedColor} /></small>
                     </label>
-                </span>
+                </span> */}
                 <span data-aos="fade-up">
                     <img src={Abasifreke} alt="team.jpg" />
                     <label>
