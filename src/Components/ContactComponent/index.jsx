@@ -61,7 +61,10 @@ const ContactComponent = () => {
       <div className="contactInput">
         <section className="formBox">
           <span className="form">
-            <form action="">
+            <form
+              action="https://getform.io/f/35e640fb-7f2f-4882-9567-2777bfc7e878"
+              method="POST"
+            >
               <span>
                 <label htmlFor="name">Name</label>
                 <input type="text" id="name" name="name" required />
